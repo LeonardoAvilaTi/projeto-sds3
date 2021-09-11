@@ -42,6 +42,16 @@ public class SaleSucessSumDTO implements Serializable {
 		this.deals = deals;
 	}
 
+
+	public String getSellerName() {
+		return sellerName;
+	}
+
+
+	public void setSellerName(String sellerName) {
+		this.sellerName = sellerName;
+	}
+
 	
 	
 	
